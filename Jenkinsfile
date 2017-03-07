@@ -1,5 +1,5 @@
 node {
-  def project = 'kubernetes-charts-ci'
+  def project = 'qwiklabs-gcp-c3a67556cd7042de'
   def appName = 'gceme'
   def feSvcName = "${appName}-frontend"
   def imageTag = "gcr.io/${project}/${appName}:${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
